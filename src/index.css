@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.list-style{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-right: 2%;
+  color :blueviolet
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px ;
+}
+
+nav li{
+  margin-right: 30px !important;
+  list-style: none;
+  color: crimson;
+  text-decoration: none;
+}
+
+h1{
+  color: darkcyan;
+}
